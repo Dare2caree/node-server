@@ -10,6 +10,8 @@ server.get('/',(req,res)=>{
     res.send('welcome to asim\'s server');
 })
 
+server.listen(PORT);
+
 
 
 
