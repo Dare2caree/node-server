@@ -18,7 +18,7 @@ http.createServer((req,res)=>{
      else if(q.pathname=="/profile"){
         res.writeHead(200,{'content-type':'text/html'});
 
-         res.write('welcome asim');
+         res.write('welcome asim sheikh');
      }
 
     else{
