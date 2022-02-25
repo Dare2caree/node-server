@@ -1,6 +1,7 @@
 http=require('http');
 fs=require('fs');
 url=require('url');
+const PORT=process.env.PORT || 5000
 
 
 http.createServer((req,res)=>{
@@ -28,7 +29,7 @@ http.createServer((req,res)=>{
     }
 }
    
-}).listen(8080);
+}).listen(PORT);
 
 console.log('server code has no error')
 
